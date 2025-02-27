@@ -1,6 +1,7 @@
 # Remix + Tailwind template
 
-Local: `http://localhost:5173/`
+Local: `http://localhost:5173/`  
+Inspect: `http://localhost:5173/__inspect/`
 
 ## Tech Stack
 
