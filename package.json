@@ -7,9 +7,19 @@
     "build": "turbo build",
     "dev": "turbo dev",
     "start": "turbo start",
-    "lint": "turbo lint"
+    "lint": "turbo lint",
+    "lint:fix": "turbo lint:fix"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^10.0.2"
   },
   "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
+    "@kornilowd/ts-config": "workspace:^",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-turbo": "^2.4.4",
+    "prettier": "^3.5.2",
+    "prettier-plugin-tailwindcss": "^0.6.11",
     "turbo": "^2.4.4"
   },
   "packageManager": "pnpm@9.0.0"
