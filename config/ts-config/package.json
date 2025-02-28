@@ -1,0 +1,11 @@
+{
+  "name": "@kornilowd/ts-config",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "./base.json",
+    "./remix.json",
+    "./react.json"
+  ],
+  "license": "UNLICENSED"
+}

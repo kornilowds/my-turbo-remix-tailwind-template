@@ -57,6 +57,9 @@ importers:
       '@ianvs/prettier-plugin-sort-imports':
         specifier: ^4.4.1
         version: 4.4.1(prettier@3.5.2)
+      '@kornilowd/ts-config':
+        specifier: workspace:*
+        version: link:../../config/ts-config
       '@remix-run/dev':
         specifier: ^2.15.3
         version: 2.16.0(@remix-run/react@2.16.0)(@remix-run/serve@2.16.0)(typescript@5.7.3)(vite@5.4.14)
@@ -117,6 +120,8 @@ importers:
       vite-tsconfig-paths:
         specifier: ^4.2.1
         version: 4.3.2(typescript@5.7.3)(vite@5.4.14)
+
+  config/ts-config: {}
 
 packages:
 

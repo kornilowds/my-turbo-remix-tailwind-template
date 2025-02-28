@@ -1,12 +1,13 @@
 {
-  "name": "my-turbo-template",
+  "name": "@kornilowd/my-turbo-template",
   "version": "1.0.0",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "private": true,
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
-    "start": "turbo start"
+    "start": "turbo start",
+    "lint": "turbo lint"
   },
   "devDependencies": {
     "turbo": "^2.4.4"
