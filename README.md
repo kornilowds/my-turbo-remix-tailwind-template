@@ -7,6 +7,10 @@ Inspect: `http://localhost:5173/__inspect/`
 
 - 📖 [React](https://react.dev/)
 - 📖 [Remix](https://remix.run/docs)
+- 📖 [Turborepo](https://turbo.build/repo/docs)
+- 📖 [Tailwindcss](https://tailwindcss.com/)
+- 📖 [shadcn/ui](https://ui.shadcn.com/)
+- 📖 [cva.style](https://cva.style/docs)
 
 ## Getting started
 
