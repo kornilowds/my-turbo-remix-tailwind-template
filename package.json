@@ -8,7 +8,9 @@
     "dev": "remix vite:dev",
     "start": "remix-serve ./build/server/index.js",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --fix .",
+    "prepare": "husky",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.2",
@@ -36,6 +38,8 @@
     "eslint-plugin-prettier": "^5.2.3",
     "eslint-plugin-react": "^7.37.4",
     "globals": "^16.0.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
     "postcss": "^8.4.38",
     "prettier": "^3.5.2",
     "prettier-plugin-tailwindcss": "^0.6.11",
@@ -49,5 +53,10 @@
   "packageManager": "pnpm@9.0.0",
   "engines": {
     "node": ">=20.0.0"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint . --fix"
+    ]
   }
 }

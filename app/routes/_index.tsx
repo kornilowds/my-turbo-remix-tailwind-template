@@ -14,7 +14,7 @@ export default function Index() {
       <div className="flex flex-col items-center gap-8">
         <header className="flex flex-col items-center gap-9">
           <h1 className="leading text-2xl font-bold text-gray-800 dark:text-gray-100">
-            Welcome to Remix
+            Welcome to Remix + Tailwind CSS
           </h1>
         </header>
 
