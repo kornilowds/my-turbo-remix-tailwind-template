@@ -1,11 +1,11 @@
-import { vitePlugin as remix } from "@remix-run/dev";
-import { defineConfig } from "vite";
-import tsconfigPaths from "vite-tsconfig-paths";
-import Inspect from "vite-plugin-inspect";
+import { vitePlugin as remix } from '@remix-run/dev'
+import { defineConfig } from 'vite'
+import tsconfigPaths from 'vite-tsconfig-paths'
+import Inspect from 'vite-plugin-inspect'
 
-declare module "@remix-run/node" {
+declare module '@remix-run/node' {
   interface Future {
-    v3_singleFetch: true;
+    v3_singleFetch: true
   }
 }
 
@@ -23,4 +23,4 @@ export default defineConfig({
     }),
     tsconfigPaths(),
   ],
-});
+})
