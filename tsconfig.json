@@ -28,7 +28,11 @@
     "forceConsistentCasingInFileNames": true,
 
     // Vite takes care of building everything, not tsc.
-    "noEmit": true
+    "noEmit": true,
+
+    "paths": {
+      "@/*": ["./*"],
+    }
   },
 
   "exclude": ["*.config.ts"]
