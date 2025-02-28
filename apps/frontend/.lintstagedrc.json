@@ -1,0 +1,5 @@
+{
+    "*.{js,jsx,ts,tsx}": [
+      "eslint . --fix --config ./apps/frontend/eslint.config.js"
+    ]
+}

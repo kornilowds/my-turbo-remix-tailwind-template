@@ -1,7 +1,7 @@
-import tseslint from "typescript-eslint";
-import turboPlugin from "eslint-plugin-turbo";
-import js from "@eslint/js";
-import pluginPrettier from "eslint-plugin-prettier/recommended";
+import js from '@eslint/js'
+import pluginPrettier from 'eslint-plugin-prettier/recommended'
+import turboPlugin from 'eslint-plugin-turbo'
+import tseslint from 'typescript-eslint'
 
 /** @type {import("eslint").Linter.Config} */
 export const config = [
@@ -14,21 +14,21 @@ export const config = [
       turbo: turboPlugin,
     },
     rules: {
-      "turbo/no-undeclared-env-vars": "warn",
+      'turbo/no-undeclared-env-vars': 'warn',
     },
   },
 
   {
     ignores: [
-      "**/.eslintrc.cjs",
-      "**/*.config.js",
-      "**/*.config.cjs",
-      ".next",
-      "dist",
-      "pnpm-lock.yaml",
-      "**/build",
-      "**/public/build",
-      "**/playwright-report",
+      '**/.eslintrc.cjs',
+      '**/*.config.js',
+      '**/*.config.cjs',
+      '.next',
+      'dist',
+      'pnpm-lock.yaml',
+      '**/build',
+      '**/public/build',
+      '**/playwright-report',
     ],
   },
-];
+]
